@@ -5,7 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Understanding TypeScript</title>
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApwdf46G7rCy7h8CKaYsaYgznM16erOjQ"
+      defer
+    ></script>
     <script src="dist/app.js" defer></script>
+    <link rel="stylesheet" href="app.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="map">
+      <p>Please enter an Address!</p>
+    </div>
+    <form>
+      <input type="text" id="address" />
+      <button type="submit">Search Address</button>
+    </form>
+  </body>
 </html>
